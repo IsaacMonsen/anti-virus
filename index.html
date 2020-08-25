@@ -22,6 +22,31 @@ Monsen Innovations AntiMalware Software
   
                                       
                                        </a>
+                                                    
+  <br> <style>
+ .SignupPopup{display:none}
+</style>
+
+
+<!-- Page HTML -->
+<div id="SignupPopup" class="SignupPopup"></div>
+
+
+
+<script>
+
+  // Function that displays your popup
+  function popSignupForm(){
+     document.getElementById('SignupPopup').style.display = 'block';
+  }
+
+  // Using setTimeout to fire the popSignupForm function
+  // in 3 minutes time (this is done in milliseconds)
+  setTimeout( function(){
+     popSignupForm();
+  }, 180000 );
+
+</script>
 
   
   
